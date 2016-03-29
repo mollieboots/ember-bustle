@@ -37,3 +37,29 @@
   width: 350px;
   z-index: 0;
 }
+
+.view-image {
+  float: right;
+}
+
+.view-body {
+  clear: both;
+  padding: 20px 150px;
+}
+
+.view-image {
+  width: 600px;
+}
+
+.about {
+  float: right;
+}
+
+a {
+  color: #555;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}

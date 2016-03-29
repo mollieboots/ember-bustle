@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateArticle: false,
+  updateArticleForm: false,
   actions: {
-    updateArticleForm() {
+    updateArticleFormShow() {
       this.set('updateArticleForm', true);
     },
     update(article) {
