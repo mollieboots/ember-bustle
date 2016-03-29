@@ -1,0 +1,13 @@
+<div class="header jumbotron">
+  <h1>Bustle</h1>
+  {{#link-to 'about'}}About{{/link-to}}
+</div>
+
+<div class="article-container">
+  <h1 class="view-title">{{model.title}}</h1>
+  <img class="view-image" src={{model.image}} alt={{model.title}} />
+  <h3 class="view-author">{{model.author}}</h3>
+  <p class="view-submitted">{{model.submitted}}</p>
+  <p class="view-category">{{model.category}}</p>
+  <p class="view-body">{{model.body}}</p>
+</div>
