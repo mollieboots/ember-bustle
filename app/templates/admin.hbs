@@ -9,7 +9,7 @@
     {{#link-to 'index'}}<h4>Go back</h4>{{/link-to}}
     <ul>
       {{#each model as |article|}}
-        <li>{{article.title}} {{update-article update="update"}}</li>
+        <li>{{article.title}} {{update-article article=article update="update"}}</li>
       {{/each}}
     </ul>
 

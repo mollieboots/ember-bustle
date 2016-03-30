@@ -14,6 +14,10 @@ export default Ember.Route.extend({
       });
       article.save();
     },
+    save(params) {
+      var newArticle = this.store.createRecord('article', params);
+      newArticle.save();
+    },
     delete(article) {
       if (confirm("Are you SURE?")) {
         article.destroyRecord();
